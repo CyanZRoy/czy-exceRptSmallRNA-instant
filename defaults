@@ -13,7 +13,7 @@
 	"ENDOGENOUS_LIB_PRIORITY": "miRNA,tRNA,gencode,piRNA,circRNA",
 	"JAVA_RAM": "10G",
 	"DATABASE_PATH": "oss://genomics-platform-reference-data/exceRpt_reference/",
-	"dokcer": "registry-vpc.cn-shanghai.aliyuncs.com/choppy-pipe/excerpt:latest",
+	"docker": "registry-vpc.cn-shanghai.aliyuncs.com/choppy-pipe/excerpt:latest",
 	"cluster_config": "ecs.e-c1m4.xlarge",
 	"disk_size": "200"
 }

@@ -1,0 +1,17 @@
+{
+    "adapter_seq": "not_available",
+    "randomBase_in_adapter": "0",
+    "QFILTER_MIN_QUAL": "20",
+    "QFILTER_MIN_READ_FRAC": "80",
+    "MIN_READ_LENGTH": "18",
+    "KEEP_RANDOM_BARCODE_STATS": "false",
+    "MAIN_ORGANISM_GENOME_ID": "hg38",
+    "STAR_alignEndsType": "Local",
+    "outFilterMatchNmin": "18",
+    "outFilterMatchNminOverLread": "0.9",
+    "STAR_outFilterMismatchNmax": "1",
+    "ENDOGENOUS_LIB_PRIORITY": "miRNA,tRNA,gencode,piRNA,circRNA",
+    "JAVA_RAM": "10G",
+    "cluster_config": "OnDemand bcs.ps.g.xlarge img-ubuntu-vpc",
+    "disk_size": "200"
+}

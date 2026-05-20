@@ -63,17 +63,14 @@ task Core {
     >>>
 
     runtime {
-        docker:docker
-	cluster:cluster_config
-	systemDisk:"cloud_ssd 40"
-	dataDisk:"cloud_ssd " + disk_size + " /cromwell_root/"
+	docker: docker
+	instanceTypes: [cluster_config]
+	systemDisk: "cloud " + disk_size
     }
 
-    output {      
-        File fileList = "fileList.txt"
+    output {
+	File fileList = "fileList.txt"
 	Array[File] files_stat = glob("${sample_id}/*")
 	Array[File] files_core = glob("${sample_id}/${INPUT_FILE_ID}_${sample_id}/*")
     }
-	
-
 }

@@ -14,6 +14,6 @@
 	"JAVA_RAM": "10G",
 	"DATABASE_PATH": "oss://genomics-platform-reference-data/exceRpt_reference/",
 	"dokcer": "registry.cn-shanghai.aliyuncs.com/choppy-pipe/excerpt:latest",
-	"cluster_config": "ecs.u1-c1m4.xlarge",
+	"cluster_config": "ecs.e-c1m4.xlarge",
 	"disk_size": "200"
 }
